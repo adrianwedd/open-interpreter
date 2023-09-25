@@ -591,21 +591,21 @@ ansicon = {version = "*", markers = "platform_system == \"Windows\""}
 
 [[package]]
 name = "litellm"
-version = "0.1.743"
+version = "0.1.747"
 description = "Library to easily interface with LLM API providers"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "litellm-0.1.743-py3-none-any.whl", hash = "sha256:aed93b065c6bcd99491a1d25d7240a1a77a7161bc58bd4fda839c4da00aa3fad"},
-    {file = "litellm-0.1.743.tar.gz", hash = "sha256:7640a58b6600ed13df35de9574afe8dd341d6de63f7d2be3e632846aab5547c3"},
+    {file = "litellm-0.1.747-py3-none-any.whl", hash = "sha256:aca1e1273da3d243738d93a289fa76a5e4ac19fdd4758c62093562684c6de086"},
+    {file = "litellm-0.1.747.tar.gz", hash = "sha256:96f9841a3b903f0d47c440b30c345cbc4fbf5f43df616c8f183806a8139ca492"},
 ]
 
 [package.dependencies]
-importlib-metadata = ">=6.8.0,<7.0.0"
+importlib-metadata = ">=6.8.0"
 openai = ">=0.27.0,<0.29.0"
 python-dotenv = ">=0.2.0"
-tiktoken = ">=0.4.0,<0.5.0"
-tokenizers = ">=0.14.0,<0.15.0"
+tiktoken = ">=0.4.0"
+tokenizers = "*"
 
 [[package]]
 name = "markdown-it-py"
